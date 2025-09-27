@@ -1,4 +1,5 @@
 
+
 # Stage M1 – Downscaling climatique dans les Pyrénées
 
 Ce dépôt contient les scripts, résultats et documents associés à mon stage de Master 1 réalisé au CEFREM (Université de Perpignan).  
@@ -67,3 +68,4 @@ Tous les notebooks ont été développés et testés sous **Google Colab** (Pyth
 
 **Salma Bensmail – 2025**  
 Université de Perpignan – CEFREM
+
