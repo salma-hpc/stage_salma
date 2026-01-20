@@ -1,10 +1,7 @@
-
-
 # Stage M1 – Downscaling climatique dans les Pyrénées
 
 Ce dépôt contient les scripts, résultats et documents associés à mon stage de Master 1 réalisé au CEFREM (Université de Perpignan).  
 Le projet porte sur le **downscaling climatique dans les Pyrénées**, avec un focus sur les données SAFRAN, les stations in situ et les méthodes d’interpolation/machine learning.
-
 
 ## 🏆 Résultats Clés
 Ce projet a permis de développer un modèle de downscaling (LightGBM) surpassant significativement les données de réanalyse standard (SAFRAN) en zone de montagne complexe.
@@ -20,15 +17,10 @@ Ce projet a permis de développer un modèle de downscaling (LightGBM) surpassan
 
 ---
 
----
-
-##  Organisation du dépôt
-
-- `rapport/`  
-  Rapport de stage (PDF).
+## 📂 Organisation du dépôt
 
 - `presentation/`  
-  Slides de la soutenance (Beamer PDF).
+  [Slides de la soutenance (PDF)](presentation/Presentation-de-Salma-CEFREM_-version-anglais.pdf)
 
 - `scripts/`  
   Notebooks principaux (pipeline de traitement et modélisation) :  
@@ -51,11 +43,11 @@ Ce projet a permis de développer un modèle de downscaling (LightGBM) surpassan
 
 ---
 
-##  Données non incluses
+## ⚠️ Données non incluses
 
 Les données brutes (SAFRAN complet, MODIS, gros CSV/NetCDF) ne sont pas déposées car trop volumineuses.  
 
-  Elles peuvent être téléchargées depuis les serveurs originaux :  
+Elles peuvent être téléchargées depuis les serveurs originaux :  
 - SAFRAN : [Météo-France AERIS](https://www.aeris-data.fr/)  
 - MODIS (COT, CER, CWP) : [NASA EOSDIS Earthdata](https://earthdata.nasa.gov/)  
 
@@ -63,7 +55,7 @@ Les scripts fournis permettent de **recréer les jeux de données** nécessaires
 
 ---
 
-##  Reproduction
+## ⚙️ Reproduction
 
 Environnement utilisé : **Python 3.10**  
 
@@ -74,13 +66,14 @@ Bibliothèques principales :
 
 ---
 
-## Exécution
+## 🚀 Exécution
 Tous les notebooks ont été développés et testés sous **Google Colab** (Python 3.10).
 
 ---
 
-##  Auteur
+## 👤 Auteur
 
 **Salma Bensmail – 2025**  
 Université de Perpignan – CEFREM
+
 
