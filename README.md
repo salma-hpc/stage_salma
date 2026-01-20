@@ -20,7 +20,7 @@ Ce projet a permis de développer un modèle de downscaling (LightGBM) surpassan
 ## 📂 Organisation du dépôt
 
 - `presentation/`  
-  [Slides de la soutenance (PDF)](presentation/Presentation-de-Salma-CEFREM_-version-anglais.pdf)
+  [Slides de la soutenance (PDF)](presentation/Presentation_CEFREM.pdf)
 
 - `scripts/`  
   Notebooks principaux (pipeline de traitement et modélisation) :  
