@@ -5,6 +5,21 @@
 Ce dépôt contient les scripts, résultats et documents associés à mon stage de Master 1 réalisé au CEFREM (Université de Perpignan).  
 Le projet porte sur le **downscaling climatique dans les Pyrénées**, avec un focus sur les données SAFRAN, les stations in situ et les méthodes d’interpolation/machine learning.
 
+
+## 🏆 Résultats Clés
+Ce projet a permis de développer un modèle de downscaling (LightGBM) surpassant significativement les données de réanalyse standard (SAFRAN) en zone de montagne complexe.
+
+### Performance du Modèle vs SAFRAN (Validation sur 65 stations)
+| Métrique | Modèle LightGBM (Notre approche) | Données SAFRAN Brutes (Référence) | Gain |
+| :--- | :---: | :---: | :---: |
+| **R² (Précision)** | **0.89** | -0.23 | **Excellente corrélation locale** |
+| **MAE (Erreur Moyenne)** | **1.33°C** | 4.21°C | **Erreur divisée par 3** |
+| **RMSE (Erreur Quadratique)** | **1.69°C** | 5.55°C | **Réduction massive des écarts** |
+
+> **Conclusion** : Le modèle corrige efficacement les biais liés à l'altitude et à la topographie locale que le modèle à maille large (8km) ne parvient pas à capturer.
+
+---
+
 ---
 
 ##  Organisation du dépôt
