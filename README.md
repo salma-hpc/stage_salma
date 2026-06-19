@@ -23,21 +23,11 @@ Le modèle de downscaling corrige efficacement les biais liés à l’altitude e
 
 ## Visualisations
 
-### Séries temporelles
-
-![Série chronologique température station 11260002 janvier à mai 2000](results/graphiques/serie_chronologique_temperature_station_11260002_jan_mai_2000.png)
-
-![Série chronologique mensuelle température station 11260002 en 2024](results/graphiques/serie_chronologique_mensuelle_temperature_station_11260002_2024.png)
-
-### Qualité des prédictions
+### Prédictions et erreurs
 
 ![Prédictions vs réel](results/graphiques/predictions_vs_reel_temperature.png)
 
 ![Distribution des résidus](results/graphiques/distribution_residus_temperature.png)
-
-### Importance des variables
-
-![Importance des variables température](results/graphiques/feature_importance_temperature(1).png)
 
 ### Cartes
 
